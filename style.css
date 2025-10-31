@@ -1,0 +1,309 @@
+@font-face {
+  font-family: Sahel;
+  src: url('fonts/Sahel/Farsi-Digits/Sahel-FD.eot');
+  src: url('fonts/Sahel/Farsi-Digits/Sahel-FD.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Sahel/Farsi-Digits/Sahel-FD.woff2') format('woff2'),
+    url('fonts/Sahel/Farsi-Digits/Sahel-FD.woff') format('woff'),
+    url('fonts/Sahel/Farsi-Digits/Sahel-FD.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Sahel;
+  src: url('fonts/Sahel/Farsi-Digits/Sahel-Bold-FD.eot');
+  src: url('fonts/Sahel/Farsi-Digits/Sahel-Bold-FD.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Sahel/Farsi-Digits/Sahel-Bold-FD.woff2') format('woff2'),
+    url('fonts/Sahel/Farsi-Digits/Sahel-Bold-FD.woff') format('woff'),
+    url('fonts/Sahel/Farsi-Digits/Sahel-Bold-FD.ttf') format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Sahel;
+  src: url('fonts/Sahel/Farsi-Digits/Sahel-Light-FD.eot');
+  src: url('fonts/Sahel/Farsi-Digits/Sahel-Light-FD.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Sahel/Farsi-Digits/Sahel-Light-FD.woff2') format('woff2'),
+    url('fonts/Sahel/Farsi-Digits/Sahel-Light-FD.woff') format('woff'),
+    url('fonts/Sahel/Farsi-Digits/Sahel-Light-FD.ttf') format('truetype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Sahel;
+  src: url('fonts/Sahel/Farsi-Digits/Sahel-SemiBold-FD.eot');
+  src: url('fonts/Sahel/Farsi-Digits/Sahel-SemiBold-FD.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Sahel/Farsi-Digits/Sahel-SemiBold-FD.woff2') format('woff2'),
+    url('fonts/Sahel/Farsi-Digits/Sahel-SemiBold-FD.woff') format('woff'),
+    url('fonts/Sahel/Farsi-Digits/Sahel-SemiBold-FD.ttf') format('truetype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Sahel;
+  src: url('fonts/Sahel/Farsi-Digits/Sahel-Black-FD.eot');
+  src: url('fonts/Sahel/Farsi-Digits/Sahel-Black-FD.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Sahel/Farsi-Digits/Sahel-Black-FD.woff2') format('woff2'),
+    url('fonts/Sahel/Farsi-Digits/Sahel-Black-FD.woff') format('woff'),
+    url('fonts/Sahel/Farsi-Digits/Sahel-Black-FD.ttf') format('truetype');
+  font-weight: 900;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 0.8;
+  background-color: #f7f7f7;
+  font-family: Sahel;
+  margin: 0px;
+}
+
+.main {
+  padding: 25px 50px;
+}
+
+.topnav {
+  background-color: #e1e1e1;
+  overflow: hidden;
+  padding: 25px 50px;
+}
+
+.logo {
+  margin: -5px 0px 0px 20px;
+  padding: 0px !important;
+}
+
+.logo img {
+  width: 60px;
+}
+
+.topnav a {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #eee;
+  color: red;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  height: 40px;
+  margin-right: 50px;
+  font-size: 17px;
+  border-radius: 0 7px 7px 0;
+  border: none;
+  font-family: Sahel;
+}
+
+.topnav input::placeholder {
+  color: #e9e9e9;
+}
+
+.topnav .search-container button {
+  float: left;
+  padding: 11px 12px;
+  height: 40px;
+  font-size: 17px;
+  background: #602ad6;
+  color: white;
+  border-radius: 7px 0 0 7px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+.signin {
+  float: left;
+}
+
+.signin a {
+  border: 1px solid #602ad6;
+  border-radius: 7px;
+  font-size: 12px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+button {
+  font-family: Sahel;
+}
+
+img {
+  border-radius: 15px;
+}
+
+.row {
+  display: flex;
+  margin: 0px;
+}
+
+.column {
+  flex: auto;
+  padding: 5px;
+}
+
+.card {
+  margin: auto;
+  background-color: White;
+  border-radius: 15px;
+  padding: 15px;
+  font-size: 12px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.game img {
+  height: 200px;
+}
+
+.img-over {
+  position: absolute;
+}
+
+.moreitems {
+  display: flex;
+  justify-content: space-between;
+}
+
+.satisfaction {
+  color: #00e100;
+  margin-left: 5px;
+}
+
+.view {
+  border: 1px solid #602ad6;
+  border-radius: 5px;
+  color: #602ad6;
+  font-size: 10px;
+}
+
+.container {
+  position: relative;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.container .btn {
+  position: absolute;
+  top: 70%;
+  right: 10%;
+  background-color: White;
+  color: purple;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+}
+
+.container .btn2 {
+  position: absolute;
+  top: 50%;
+  right: 40%;
+  background-color: Purple;
+  color: White;
+  font-size: 18px;
+  padding: 12px 50px;
+  border: none;
+  border-radius: 25px;
+}
+
+.text-over {
+  position: absolute;
+  top: 20%;
+  right: 10%;
+  color: White;
+}
+
+.centered {
+  text-align: center;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+.darker img {
+  filter: brightness(70%);
+}
+
+footer {
+  margin-top: 50px;
+  padding: 5px 50px;
+  background-color: #e1e1e1;
+}
+
+.foot-social .fa-brands {
+  font-size: 30px;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 50px;
+}
+
+.foot-honors img {
+  background-color: white;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 100px;
+}
+
+.fa-facebook-square {
+  color: #29487D;
+}
+
+.fa-youtube {
+  color: #FF0000;
+}
+
+.fa-line {
+  color: #00B900;
+}
+
+.fa-whatsapp {
+  color: #4FCE5D;
+}
+
+.fa-telegram {
+  color: #0088CC;
+}
+
+.fa-twitter-square {
+  color: #55ACEE;
+}
+
+.fa-linkedin {
+  color: #007bb5;
+}
+
+.footer-bottom {
+  color: white;
+  background-color: #4b20a9;
+  padding: 20px;
+  text-align: center;
+}
