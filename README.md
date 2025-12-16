@@ -1,49 +1,49 @@
-# فروشگاه ایران گیم 🎮
+# Iran Game Shop 🎮
 
-این پروژه یک قالب **فرانت‌اند (UI)** برای فروشگاه آنلاین محصولات گیمینگ با نام **ایران گیم** است. هدف پروژه، پیاده‌سازی یک صفحه اصلی (Landing Page) مدرن، راست‌چین (RTL) و کاربرپسند برای نمایش بازی‌ها، قطعات سخت‌افزاری و تجهیزات گیمینگ می‌باشد.
-
----
-
-## ✨ ویژگی‌ها
-
-* طراحی کاملاً **RTL** مناسب زبان فارسی
-* رابط کاربری مدرن و الهام‌گرفته از فروشگاه‌های گیمینگ
-* نوار ناوبری (Navbar) شامل:
-
-  * لوگو
-  * لینک‌های اصلی سایت
-  * جستجو
-  * ورود / ثبت‌نام
-  * سبد خرید
-* بخش‌های متنوع شامل:
-
-  * اسلایدر معرفی جدیدترین بازی‌ها
-  * اخبار کنسول‌ها (XBOX و PlayStation)
-  * فروش ویژه بازی‌ها
-  * پرفروش‌ترین محصولات هفته
-  * دسته‌بندی بازی‌ها (استراتژیک، ماجراجویی، مبارزه‌ای و ...)
-  * کیس‌های گیمینگ
-  * ست‌های گیمینگ با تخفیف
-  * کارت‌های گرافیک پرفروش
-* فوتر کامل شامل:
-
-  * دسترسی سریع
-  * دسته‌بندی تخفیف‌ها
-  * شبکه‌های اجتماعی
-  * نمادها و افتخارات فروشگاه
+This project is a **frontend (UI) template** for an online gaming products store called **Iran Game**. The goal is to create a modern, user-friendly **landing page** to showcase games, hardware, and gaming equipment.
 
 ---
 
-## 🛠️ تکنولوژی‌های استفاده‌شده
+## ✨ Features
+
+* Fully **RTL (Right-to-Left)** design for Persian language
+* Modern, game-inspired user interface
+* Navigation bar (Navbar) includes:
+
+  * Logo
+  * Main site links
+  * Search bar
+  * Sign in / Register
+  * Shopping cart
+* Sections include:
+
+  * Slider for latest games
+  * Console news (XBOX and PlayStation)
+  * Featured game sales
+  * Weekly best-selling products
+  * Game categories (Strategy, Adventure, Fighting, etc.)
+  * Gaming cases
+  * Gaming kits with discounts
+  * Best-selling graphics cards
+* Full footer including:
+
+  * Quick access links
+  * Discount categories
+  * Social media icons
+  * Certifications and awards
+
+---
+
+## 🛠️ Technologies Used
 
 * **HTML5**
-* **CSS3** (فایل جداگانه `style.css`)
-* **Font Awesome 6** (برای آیکن‌ها)
-* طراحی Responsive با استفاده از Flexbox
+* **CSS3** (`style.css`)
+* **Font Awesome 6** (for icons)
+* Responsive design with Flexbox
 
 ---
 
-## 📂 ساختار فایل‌ها
+## 📂 File Structure
 
 ```
 project-root/
@@ -71,46 +71,44 @@ project-root/
 
 ---
 
-## 🚀 نحوه اجرا
+## 🚀 How to Run
 
-1. فایل‌ها را دانلود یا کلون کنید
-2. فایل `index.html` را در مرورگر باز کنید
-3. نیازی به نصب کتابخانه یا وابستگی خاصی نیست
-
----
-
-## 🎯 هدف پروژه
-
-این پروژه مناسب برای:
-
-* تمرین **HTML و CSS**
-* نمونه‌کار فرانت‌اند
-* قالب اولیه فروشگاه اینترنتی گیمینگ
-* پروژه دانشجویی یا آموزشی
+1. Download or clone the files
+2. Open `index.html` in a web browser
+3. No extra libraries or dependencies are required
 
 ---
 
-## 🧩 نکات قابل توسعه
+## 🎯 Project Purpose
 
-* افزودن **JavaScript** برای:
+This project is suitable for:
 
-  * اسلایدر داینامیک
-  * سبد خرید واقعی
-  * جستجوی زنده
-* اتصال به بک‌اند (PHP / Node.js)
-* تبدیل به پروژه **React / Vue**
-* بهینه‌سازی کامل Responsive برای موبایل
+* Practicing **HTML and CSS**
+* Frontend portfolio
+* Basic online gaming store template
+* Educational or student projects
 
 ---
 
-## 📄 لایسنس
+## 🧩 Future Improvements
 
-این پروژه صرفاً جهت **آموزشی** طراحی شده و استفاده تجاری از نام و برند «ایران گیم» نیازمند مجوز می‌باشد.
+* Add **JavaScript** for:
+
+  * Dynamic sliders
+  * Real shopping cart functionality
+  * Live search
+* Connect to a backend (PHP / Node.js)
+* Convert to **React / Vue** project
+* Full mobile responsiveness optimization
 
 ---
 
-### 👨‍💻 توسعه‌دهنده
+## 📄 License
 
-طراحی و پیاده‌سازی: *Frontend UI Project*
+This project is for **educational purposes only**. Commercial use of the name and brand “Iran Game” requires permission.
 
-اگر دوست داشتی، می‌تونم نسخه **GitHub-ready** یا **انگلیسی** این README رو هم برات آماده کنم 😉
+---
+
+### 👨‍💻 Developer
+
+Design and implementation: *Frontend UI Project*
